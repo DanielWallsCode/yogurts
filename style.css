@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 500px;
+    background: #ffcdd5 url("https://cdn-icons-png.flaticon.com/512/119/119654.png?w=360");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+
+  .pide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 110%;
+  }
+  
+  .pide h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #f0f8ff;
+    text-shadow: 12px 5px 12px rgb(44, 43, 43) ;
+  }
+
+  .pide h1 a{
+    text-decoration: none;
+    color: #f0f8ff;
+    border-radius: 15px;
+    transition: 300ms all;
+    text-transform: uppercase;
+  }
+
+  .pide h1 a:hover{
+    background-color: rgb(27, 141, 27);
+  }
+
+  #btn{
+    text-decoration: none;
+    color: #f0f8ff;
+    font-weight: 900;
+    border-radius: 15px;
+    transition: 300ms all;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 12px 5px 12px rgb(44, 43, 43) ;
+  }
+
+  #btn:hover{
+    background-color: rgb(27, 141, 27);
+  }
+
+
+  .sabores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sabores h2{
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+
+  .sabores img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #f0f8ff;
+    border-radius: 50px;
+    height: 320px;
+  }
+  
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  #bt{
+    text-decoration: none;
+    color: #f0f8ff;
+    font-weight: 900;
+    border-radius: 15px;
+    transition: 300ms all;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 12px 5px 12px rgb(44, 43, 43) ;
+  }
+
+  @media (max-width: 900px){
+    .pide h1{
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .sabores img {
+        height: 220px;
+    }
+  }
